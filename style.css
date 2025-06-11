@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: 'Young Serif', 'Outfit' ,sans-serif;
+    background-color: hsl(333, 60%, 97%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Main container */
+.container {
+    max-width:600px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+p{
+    width: 75ch;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+h1 {
+    text-align: left;
+}
+
+.recipe-image img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+/* Recipe Details */
+.recipe-details {
+    background: #f8e6e0;
+    padding: 10px;
+    border-radius: 8px;
+    padding-left: 20px;
+    line-height: 2;
+
+
+    
+
+}
+
+.recipe-details h2 {
+    color: #7b3f00;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    padding-left: 30px;
+    font-size: 13px;
+    padding-top: 0;
+    margin-top: 0;
+    text-indent: 10px;
+
+}
+
+/* Ingredients */
+.ingredients h2,
+.instructions h2,
+.nutrition h2{
+    color: #5a2800;
+    padding: 0px; 
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.instructions  {
+    text-align: left;
+    border-top: 2px solid gray;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    line-height: 2;
+}
+
+.ingredients {
+    line-height: 2;
+}
+
+/* Instructions */
+.instructions ol {
+    list-style-type: decimal;
+}
